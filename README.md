@@ -17,8 +17,11 @@ other pins used for whatever is needed
 
 - VBUS: reset
 - SBU1/SBU2: swd or equivalent 2 wire debug
+  - SBU1 is clk
+  - SBU2 is data
 - D1/D2: debug usb 2.0, either to onboard debugger or to som debug usb
 - SSRX1+/SSTX1+: debug uart
+  - from host side: RX is RX, TX is TX
 - SSRX2+/SSTX2+: reserved for future use
 - SSRX1-/SSTX1-/SSRX2-/SSTX2-: ground
 
