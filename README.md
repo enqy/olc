@@ -29,4 +29,4 @@ other pins used for whatever is needed
 
 A 2 port spec combining a normal port and a debug port.
 
-Normal port on left, debug on right, spaced 16mm apart center to center.
+Normal port on right, debug on left, spaced 16mm apart center to center.
